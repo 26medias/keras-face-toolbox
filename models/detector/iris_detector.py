@@ -6,7 +6,7 @@ from .ELG.elg_keras import KerasELG
 
 import os
 
-FILE_PATH = os.getcwd()+"models/detector"
+FILE_PATH = os.getcwd()+"/models/detector"
 
 print("iris_detector FILE_PATH", FILE_PATH)
 
