@@ -18,6 +18,7 @@ class L2Norm(Layer):
         self.input_spec = [InputSpec(shape=input_shape)]
         self.gamma = K.variable(self.gamma_init((self.n_channels,)), name='{}_gamma'.format(self.name))
         self.trainable_weights = [self.gamma]
+        self.trainable_weights = [self.gamma]
         self.built = True
 
     def call(self, x, mask=None):

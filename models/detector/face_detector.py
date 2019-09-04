@@ -8,7 +8,7 @@ from .s3fd.s3fd_detector import S3FD
 from .landmarks_detector import FANLandmarksDetector
 import os
 
-FILE_PATH = os.getcwd()
+FILE_PATH = os.getcwd()+"models/detector"
 
 print("face_detector FILE_PATH", FILE_PATH)
 

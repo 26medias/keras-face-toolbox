@@ -8,7 +8,7 @@ from keras.models import load_model
 from pathlib import Path
 import os
 
-FILE_PATH = os.getcwd()
+FILE_PATH = os.getcwd()+"models/detector"
 
 print("landmark_detector FILE_PATH", FILE_PATH)
 
